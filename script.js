@@ -11,3 +11,16 @@ function inverse()
         document.body.style.color = "black";
     }
 }
+function change()
+{
+    var elem = document.getElementById("demo");
+    if (elem.value=="White") 
+        elem.value = "Black";
+    else 
+        elem.value = "White";
+}
+function Fun()
+{
+    change();
+    inverse();
+}
